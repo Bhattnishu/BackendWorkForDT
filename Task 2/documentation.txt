@@ -1,0 +1,27 @@
+API Documentation :-
+	1>Creating Nudge
+		>Method: POST
+		>End Point: /api/v1/nudges
+		>response: on success return 201 and on failure return message/error
+	
+	2> Get Nudge 
+		> Method :GET
+		>End Point: /api/v1/nudges/:id
+		>response: on success return nudge detail and on failure return message/error
+
+	
+	3> Update nudge
+		> Method :PUT
+		>End Point: /api/v1/nudges/:id
+		>response: on success return 201 and on failure return message/error
+
+	
+	4> Delete Nudge 
+		> Method :Delete
+		>End Point: /api/v1/nudges/:id
+		>response: on success return 201 and on failure return message/error
+
+	5> Show Nudges
+		> Method :Get
+		>End Point: /api/v1/nudges
+		>response: on success return nudges in json formate on  and on failure return message/error 
