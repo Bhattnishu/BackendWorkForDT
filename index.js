@@ -1,8 +1,7 @@
 const express = require("express");
 const app = express();
 const { MongoClient } = require("mongodb");
-const uri =
-  "mongodb+srv://newDbUser:tnMzpuuSA4PrSesl@newcluster.ofii1.mongodb.net/?retryWrites=true&w=majority&appName=NewCluster";
+const uri ="mongodb uri";
 const client = new MongoClient(uri);
 const { ObjectId } = require("mongodb");
 const multer = require("multer");
